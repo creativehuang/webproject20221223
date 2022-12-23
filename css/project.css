@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+}
+
+.header {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    height: 15%;
+}
+
+
+.header img {
+    width: 70%;
+    height: 100%;
+}
+
+
+.menu {
+    display: grid;
+    grid-template: auto auto / auto;
+    height: 100%;
+
+
+}
+
+.menuline1 {
+
+    width: 100%;
+    height: 50%;
+}
+
+.menuline2 {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+}
+
+.menu {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.menuline1 .menuul li {
+    margin: 14px;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.menuline1 .menuul li:nth-child(n+2) {
+    border-left: 2px solid grey;
+}
+
+.menuline2 .menuul li {
+    margin: 14px;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.menuline2 .menuul li:nth-child(n+2) {
+    border-left: 2px solid grey;
+
+}
+
+.menuline1 .menuul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+    width: 100%;
+    height: 10%;
+}
+
+.menuline2 .menuul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 100%;
+    height: 100%;
+}
+
+
+.menuline2 img {
+    width: 80%;
+    height: 80%;
+}
+
+.layer2 {
+    width: 95%;
+
+    margin: 0 auto;
+}
+
+.layer2 h1 {
+    padding-top: 1%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.layer2 p {
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.layer3 {
+    padding-top: 3px;
+    width: 95%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.layer3 .filter-by {
+
+
+    margin: 1.5%;
+}
+
+.layer3 :nth-child(n+2) {
+
+}
+
+.layer3 .select1 select,
+.layer3 .select2 select,
+.layer3 .select3 select {
+    margin: 10px auto;
+    horiz-align: center;
+    vertical-align: center;
+    padding-left: 5px;
+    width: 150px;
+    height: 30px;
+    background-color: darkgrey;
+    border-radius: 3px;
+
+}
+
+.layer4 {
+    display: grid;
+    grid-template: auto auto auto /auto auto auto;
+    background-color: yellow;
+    width: 90%;
+
+    margin: 0 auto;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.layer4 > * {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    justify-content: center;
+    position: relative;
+}
+
+.layer4 .list1,
+.layer4 .list2,
+.layer4 .list3,
+.layer4 .list4,
+.layer4 .list5,
+.layer4 .list6,
+.layer4 .list7,
+.layer4 .list8,
+.layer4 .list9,
+.layer4 .list10,
+.layer4 .list11,
+.layer4 .list12
+
+{
+    width:100%;
+    height:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.layer4 .list1 {
+    background-image: url("../img/list1.png");
+}
+
+.layer4 .list2 {
+    background-image: url("../img/list2.png");
+}
+
+.layer4 .list3 {
+    background-image: url("../img/list3.png");
+}
+
+.layer4 .list4 {
+    background-image: url("../img/list4.png");
+}
+
+.layer4 .list5 {
+    background-image: url("../img/list5.png");
+}
+
+.layer4 .list6 {
+    background-image: url("../img/list6.png");
+}
+
+.layer4 .list7 {
+    background-image: url("../img/list7.png");
+}
+
+.layer4 .list8 {
+    background-image: url("../img/list8.png");
+}
+
+.layer4 .list9 {
+    background-image: url("../img/list9.png");
+}
+
+.layer4 .list10 {
+    background-image: url("../img/list10.png");
+}
+
+.layer4 .list11 {
+    background-image: url("../img/list11.png");
+}
+
+.layer4 .list12 {
+    background-image: url("../img/list12.png");
+}
+
+.layer4 img {
+    width: 100%;
+    height: 100%;
+}
+
+.layer4 .description {
+    position: absolute;
+    top: 50%;
+    color: white;
+    padding-left:25px;
+
+
+}
+
+.layer4 .description .title {
+
+    font-size: 1.5em;
+
+}
+
+.layer4 .description .line1{
+    color: whitesmoke;
+    font-weight: bold;
+    display:block;
+    border-bottom: 2px solid grey;
+}
+.layer4 .description .line1 span:nth-child(n+1){
+
+    font-weight: lighter;
+}
+
+.layer4 .description .line2 {
+    color: whitesmoke;
+    display:block;
+}
+.layer4 .description .line3 {
+    color: whitesmoke;
+    border-bottom: 2px grey solid ;
+}
+

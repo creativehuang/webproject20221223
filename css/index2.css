@@ -1,0 +1,547 @@
+body {
+    background-image: url("../img/waves-01.svg");
+    justify-content: center;
+    align-items: center;
+    font-family: "DejaVu Sans Mono", monospace;
+
+
+}
+
+html, body {
+    height: 100%;
+    min-height: 1650px;
+    font-size: 100%;
+}
+
+.header {
+    height: 5%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+.header img {
+    margin-left: 4em;
+    width: 4%;
+    height: 4%;
+
+}
+
+.header .nav_text {
+    height: 100%;
+    display: inline-block;
+    float: right;
+    width: 88%;
+}
+
+.header .nav_text .general_information {
+    font-size: 2em;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    /*align*/
+}
+
+.header .nav_text .company_business_information {
+    font-size: 2em;
+    display: inline-block;
+    width: 100%;
+
+
+}
+
+.header .nav_text .general_information li {
+    display: inline-block;
+    float: right;
+    margin: 0.5em;
+    color: rgb(154, 154, 154);
+    font-size: 0.45em;
+    font-family: "DejaVu Sans Mono";
+
+
+}
+
+.header .nav_text .general_information li a {
+    text-decoration: none;
+}
+
+
+.header .nav_text .general_information li:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px #f4511e;
+}
+
+
+.header .nav_text .company_business_information li {
+    display: inline-block;
+    float: right;
+    margin: 0.5em;
+    color: rgb(52, 52, 52);
+    font-size: 0.5em;
+    font-family: "DejaVu Sans Mono";
+    font-weight: bold;
+
+}
+
+.header .nav_text .company_business_information li img {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+
+.header .nav_text .company_business_information li:hover {
+    cursor: pointer;
+}
+
+.nav {
+    height: 30%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    text-align: center;
+    background: url(../img/banner.png) no-repeat;
+    background-size: cover;
+}
+
+.nav img {
+    width: 100%;
+    height: 100%;
+}
+
+/* sectiona */
+.sectiona,
+.sectiond
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 20%;
+    padding-left: 3%;
+    display: block;
+
+}
+
+.sectionc{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 25%;
+    padding-left: 3%;
+    display: block;
+
+
+}
+
+.sectionb {
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 30%;
+    padding-left: 6%;
+    display: block;
+
+}
+.sectiona h1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.35em;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+.sectiona .section1,
+.sectiona .section2,
+.sectiona .section3,
+.sectiona .section4,
+
+.sectiond .section1,
+.sectiond .section2,
+.sectiond .section3,
+.sectiond .section4 {
+    display: inline-block;
+    margin-right: 1%;
+    width: 23%;
+    height:83%;
+}
+.sectionc .section1,
+.sectionc .section2,
+.sectionc .section3 {
+    display: inline-block;
+    margin-right: 1%;
+    width: 31%;
+    height: 90%;
+}
+
+
+
+
+
+
+.sectiona .section1 p,
+.sectiona .section2 p,
+.sectiona .section3 p,
+.sectiona .section4 p,
+.sectionc .section1 p,
+.sectionc .section2 p,
+.sectionc .section3 p,
+.sectiond .section1 p,
+.sectiond .section2 p,
+.sectiond .section3 p,
+.sectiond .section4 p {
+    margin-top: 1%;
+    color: grey;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+}
+
+
+.sectiona .section1 .section1link1,
+.sectiona .section3 .section1link1,
+.sectiond .section2 .section1link1,
+.sectiona .section2 .section1link1,
+.sectiona .section4 .section1link1,
+.sectionc .section1 .section1link1,
+.sectionc .section2 .section1link1,
+.sectionc .section3 .section1link1,
+.sectiond .section1 .section1link1,
+.sectiond .section3 .section1link1,
+.sectiond .section4 .section1link1 {
+    font-size: 0.8em;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    text-decoration: none;
+}
+
+.sectiona .section1 .section1link1,
+.sectiona .section3 .section1link1 {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.sectionc .section1 .section1link1,
+.sectionc .section2 .section1link1,
+.sectionc .section3 .section1link1 {
+    margin-bottom: 2.5%;
+    margin-top: 3%;
+    height: 12%;
+}
+
+.sectiond .section1 .section1link1,
+.sectiond .section3 .section1link1 {
+    margin-bottom: 5.5%;
+    margin-top: 5.5%;
+
+}
+
+
+.sectiona .section1:hover .section1link1,
+.sectiona .section2:hover .section1link1,
+.sectiona .section3:hover .section1link1,
+.sectiona .section4:hover .section1link1,
+.sectionc .section1:hover .section1link1,
+.sectionc .section2:hover .section1link1,
+.sectionc .section3:hover .section1link1,
+.sectionc .section4:hover .section1link1,
+.sectiond .section1:hover .section1link1,
+.sectiond .section2:hover .section1link1,
+.sectiond .section3:hover .section1link1,
+.sectiond .section4:hover .section1link1 {
+    text-decoration: underline;
+}
+
+.sectiona .section1:hover .section1link2,
+.sectiona .section2:hover .section1link2,
+.sectiona .section3:hover .section1link2,
+.sectiona .section4:hover .section1link2,
+.sectionc .section1:hover .section1link2,
+.sectionc .section2:hover .section1link2,
+.sectionc .section3:hover .section1link2,
+.sectionc .section4:hover .section1link2,
+.sectiond .section1:hover .section1link2,
+.sectiond .section2:hover .section1link2,
+.sectiond .section3:hover .section1link2,
+.sectiond .section4:hover .section1link2 {
+    text-decoration: none;
+}
+
+
+.sectiona .section1 .section1link2,
+.sectiona .section2 .section1link2,
+.sectiona .section3 .section1link2,
+.sectiona .section4 .section1link2,
+.sectionc .section1 .section1link2,
+.sectionc .section2 .section1link2,
+.sectionc .section3 .section1link2,
+.sectionc .section4 .section1link2,
+.sectiond .section1 .section1link2,
+.sectiond .section2 .section1link2,
+.sectiond .section3 .section1link2,
+.sectiond .section4 .section1link2 {
+    font-size: 0.7em;
+    color: grey;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 2em;
+}
+
+.sectiona .section1 .section1link2 img,
+.sectiona .section2 .section1link2 img,
+.sectiona .section3 .section1link2 img,
+.sectiona .section4 .section1link2 img,
+.sectionc .section1 .section1link2 img,
+.sectionc .section2 .section1link2 img,
+.sectionc .section3 .section1link2 img,
+.sectionc .section4 .section1link2 img,
+.sectiond .section1 .section1link2 img,
+.sectiond .section2 .section1link2 img,
+.sectiond .section3 .section1link2 img,
+.sectiond .section4 .section1link2 img {
+    width: 2em;
+    height: 0.8em;
+    padding-left: 2em;
+}
+
+.sectiona .section1:hover .section1link2 img,
+.sectiona .section2:hover .section1link2 img,
+.sectiona .section3:hover .section1link2 img,
+.sectiona .section4:hover .section1link2 img,
+.sectionc .section1:hover .section1link2 img,
+.sectionc .section2:hover .section1link2 img,
+.sectionc .section3:hover .section1link2 img,
+.sectionc .section4:hover .section1link2 img,
+.sectiond .section1:hover .section1link2 img,
+.sectiond .section2:hover .section1link2 img,
+.sectiond .section3:hover .section1link2 img,
+.sectiond .section4:hover .section1link2 img {
+    width: 2em;
+    height: 0.8em;
+    padding-left: 4em;
+}
+
+.sectiona .section1 .section1pic,
+.sectiona .section2 .section2pic,
+.sectiona .section3 .section3pic,
+.sectiona .section4 .section4pic,
+
+.sectionc .section1 .section1pic,
+.sectionc .section2 .section2pic,
+.sectionc .section3 .section3pic,
+
+.sectiond .section1 .section1pic,
+.sectiond .section2 .section2pic,
+.sectiond .section3 .section3pic,
+.sectiond .section4 .section4pic
+{
+    width: 98%;
+    height: 60%;
+    background-size: cover;
+
+}
+.sectiona .section1 .section1pic {
+    background: url("../img/section1.png");
+}
+.sectiona .section2 .section2pic {
+    background: url("../img/section2.png");
+}
+.sectiona .section3 .section3pic {
+    background: url("../img/section3.png");
+}
+.sectiona .section4 .section4pic {
+    background: url("../img/section4.png");
+}
+
+.sectionc .section1 .section1pic {
+    background: url("../img/section6.png");
+}
+.sectionc .section2 .section2pic {
+    background: url("../img/section7.png");
+}
+
+.sectionc .section3 .section3pic {
+    background: url("../img/section8.png");
+}
+.sectiond .section1 .section1pic {
+    background: url("../img/section9.png");
+}
+.sectiond .section2 .section2pic {
+    background: url("../img/section10.png");
+}
+
+.sectiond .section3 .section3pic {
+    background: url("../img/section11.png");
+}
+
+.sectiond .section4 .section4pic {
+    background: url("../img/section12.png");
+}
+
+
+
+
+
+
+.sectionb .spotlighttext {
+    padding: 2em;
+    display: inline-block;
+    width: 35%;
+    height: 87%;
+    float: left;
+
+
+}
+
+.sectionb .spotlightpic {
+    display: inline-block;
+    width: 56%;
+    height: 98%;
+    float: left;
+    background:url("../img/section5.png");
+    background-size: cover;
+}
+
+.sectionb .spotlighttext h1 {
+    color: black;
+    font-size: 3.8em;
+    font-stretch: normal;
+    text-align: justify-all;
+    font-weight: bolder;
+    margin-bottom: 0.3em;
+    font-family: "Microsoft YaHei";
+    color: rgb(52, 52, 52);
+    display: block;
+
+
+}
+
+.sectionb .spotlighttext .titlearticle {
+    color: rgb(62, 126, 112);
+    text-shadow: rgb(63, 127, 113);
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    word-spacing: 0.001em;
+
+}
+
+.sectionb .spotlighttext .detailarticle {
+    color: rgb(52, 52, 52);
+    text-shadow: 0.01em 0.01em 0.01em #444444;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+    line-height: 1.55em;
+
+
+}
+
+
+.sectionb .spotlighttext button {
+    background-color: rgb(56, 120, 97);
+    margin: 0em 2em 0em 0em;
+    width: 37%;
+    padding-top: 0.8em;
+    padding-bottom: 1em;
+    padding-left: 0.1em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: rgb(234, 248, 253);
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.sectionb .spotlighttext button:hover .learnmore {
+    padding-left: 1.5em;
+}
+
+.sectionb .spotlighttext button:hover .arrow {
+    padding-left: 1.5em;
+}
+
+
+
+.sectionc h1 {
+
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.35em;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+
+}
+
+
+.sectionc img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.sectiond h1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.35em;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+.sectiond .section1,
+.sectiond .section2,
+.sectiond .section3,
+.sectiond .section4 {
+    display: inline-block;
+    margin-right: 1%;
+    width: 23%;
+
+}
+
+
+.sectiond img {
+    width: 100%;
+    height: 100%;
+}
+
+
+footer {
+    text-align: center;
+    align-items: center;
+}
+
+footer img {
+    width: 10%;
+    height: 10%
+}
+
+footer li {
+    display: inline-block;
+
+    padding-left: 1.38em;
+    padding-right: 1em;
+    color: rgb(52, 52, 52);
+    font-size: 0.6em;
+}
+
+footer .regularli {
+    border-left: 0.08em grey solid;
+
+}
+
+footer p {
+    color: rgb(159, 159, 159);
+    font-size: 0.5em;
+    font-family: "DejaVu Sans Mono";
+    text-shadow: 0.01em 0.01em 0.01em #B0B0B0;
+    font-weight: lighter;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
